@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>FCC: Product Landing Page</title>
+</head>
+<body>
+    <div id="menu-bar">
+        <div class ="menubar">
+            <div class="menuicon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="child1">
+                <div class ="codepenlogo">
+                    <a href="https://codepen.io/trending"><img src="https://tinyurl.com/j2f5zb56" alt="codepen-logo"></a>
+                </div>
+                <div class="fcc">
+                    <p><a href="https://codepen.io/freeCodeCamp/pen/NdrKKL">FCC: Survey Form</a></p>
+                    <div class="subFcc">
+                        <p><a href="https://codepen.io/freeCodeCamp">freeCodeCamp.org</a></p>
+                        <button class="follow"><a href="https://codepen.io/login?">+ Follow</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class ="child2">
+                <div class="hart"><button><a href="https://codepen.io/login?"><span class="heart">&hearts;</span></a></button></div>
+                <div class="changeview"><button><a href="https://codepen.io/freeCodeCamp/pen/NdrKKL"> View in Editor</a></button></div>
+                <div class="signup"><a href="https://codepen.io/accounts/signup/user/free"><button>Sign Up</a></button></div>
+                <div class="login"><a href="https://codepen.io/login"><button>Log In</a></button></div>
+            </div>
+        </div>
+    </div> 
+    <main>
+        <div id="header">
+            <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#how-it-works">How It works</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
+            </nav>
+        </div>
+        <div id="heading">
+            <h2>Handcrafted, home-made masterpieces </p>
+        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">
+                <input id="email" type="email" name="email-address" placeholder="Enter your email address">
+            </label>
+            <label for="submit">
+                <input id="submit" type="submit" value="GET STARTED">
+            </label>
+        </form>
+        <section id="features">
+            <div class="feature-desc">
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. 
+                    This will increase the longevity of your purchase.</p>
+            </div>
+            <div class="feature-desc">
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. 
+                    We also provide free returns if you are not satisfied.</p>
+            </div>
+            <div class="feature-desc">
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults 
+                    and we will check and test the pitch of your instrument.</p>
+            </div>
+        </section>
+        <section id="how-it-works">
+            <iframe id="video" width="550" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="pricing">
+            <div class="pricing-desc">
+                <h4>TENOR TROMBONE</h4>
+                <span class="price">$600</span>
+                <span class="price-desc">Lorem ipsum.</span>
+                <span class="price-desc">Lorem ipsum.</span>
+                <span class="price-desc">Lorem ipsum dolor.</span>
+                <span  class="price-desc">Lorem ipsum.</span>
+                <input type="button" value="SELECT">
+            </div>
+            <div class="pricing-desc">
+                <div class="pricing-header"><h4>BASS TROMBONE</h4></div>
+                <span class="price">$900</span>
+                <span class="price-desc">Lorem ipsum.</span>
+                <span class="price-desc">Lorem ipsum.</span>
+                <span class="price-desc">Lorem ipsum dolor.</span>
+                <span  class="price-desc">Lorem ipsum.</span>
+                <input type="button" value="SELECT">
+            </div>
+            <div class="pricing-desc">
+                <h4>VALVE TROMBONE</h4>
+                <span class="price">$600</span>
+                <span class="price-desc">Lorem ipsum.</span>
+                <span class="price-desc">Lorem ipsum.</span>
+                <span class="price-desc">Lorem ipsum dolor.</span>
+                <span class="price-desc">Lorem ipsum.</span>
+                <input type="button" value="SELECT">
+            </div>
+        </section>
+        <footer id="footer">
+            <span class="footer-desc">Privacy</span>
+            <span class="footer-desc">Privacy</span>
+            <span class="footer-desc">Privacy</span>
+            <div>
+                <span>Copyright 2016, Original Trombones</span>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
